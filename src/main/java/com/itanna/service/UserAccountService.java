@@ -1,9 +1,8 @@
-package com.ebipay.service;
+package com.itanna.service;
 
-import com.ebipay.dao.UserAccountDao;
-import com.ebipay.model.*;
-import com.ebipay.model.impl.UserAccount;
-import com.ebipay.service.IUserAccountService;
+import com.itanna.dao.UserAccountDao;
+import com.itanna.model.*;
+import com.itanna.model.impl.UserAccount;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

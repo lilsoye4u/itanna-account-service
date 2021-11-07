@@ -1,4 +1,4 @@
-package com.ebipay.model;
+package com.itanna.model;
 
 import java.time.Instant;
 

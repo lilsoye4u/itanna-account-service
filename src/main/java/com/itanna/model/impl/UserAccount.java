@@ -1,14 +1,11 @@
-package com.ebipay.model.impl;
+package com.itanna.model.impl;
 
 
-import com.ebipay.model.IUserAccount;
-import org.apache.catalina.User;
+import com.itanna.model.IUserAccount;
 import org.hibernate.annotations.CreationTimestamp;
-import org.springframework.data.annotation.CreatedDate;
 
 import javax.persistence.*;
 import java.time.Instant;
-import java.util.Date;
 
 @Entity(name = "user_account")
 public class UserAccount implements IUserAccount {

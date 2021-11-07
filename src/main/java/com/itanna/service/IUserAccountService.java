@@ -1,9 +1,9 @@
-package com.ebipay.service;
+package com.itanna.service;
 
-import com.ebipay.model.Status;
-import com.ebipay.model.impl.UserAccount;
-import com.ebipay.model.UserAccountDTO;
-import com.ebipay.model.UserLoginDTO;
+import com.itanna.model.Status;
+import com.itanna.model.impl.UserAccount;
+import com.itanna.model.UserAccountDTO;
+import com.itanna.model.UserLoginDTO;
 
 import java.util.List;
 import java.util.Optional;

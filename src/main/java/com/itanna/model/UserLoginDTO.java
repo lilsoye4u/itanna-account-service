@@ -1,4 +1,4 @@
-package com.ebipay.model;
+package com.itanna.model;
 
 public class UserLoginDTO {
     public UserLoginDTO(String emailAddress, String password) {

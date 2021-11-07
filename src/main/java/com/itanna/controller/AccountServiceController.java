@@ -1,9 +1,9 @@
-package com.ebipay.controller;
+package com.itanna.controller;
 
-import com.ebipay.model.Status;
-import com.ebipay.model.UserAccountDTO;
-import com.ebipay.model.UserLoginDTO;
-import com.ebipay.service.IUserAccountService;
+import com.itanna.model.Status;
+import com.itanna.model.UserAccountDTO;
+import com.itanna.model.UserLoginDTO;
+import com.itanna.service.IUserAccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.GetMapping;
