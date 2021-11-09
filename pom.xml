@@ -8,11 +8,11 @@
 		<version>2.5.7-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ebipay</groupId>
-	<artifactId>account-service</artifactId>
+	<groupId>com.itanna</groupId>
+	<artifactId>itanna-account-service</artifactId>
 	<version>1.0</version>
-	<name>account-service</name>
-	<description>Ebi Pay Account Service</description>
+	<name>itanna-account-service</name>
+	<description>Itanna Accounts Service</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -31,6 +31,24 @@
 			<scope>test</scope>
 		</dependency>
 		-->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>3.12.4</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-junit-jupiter</artifactId>
+			<version>3.12.4</version>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.session</groupId>
 			<artifactId>spring-session-core</artifactId>
